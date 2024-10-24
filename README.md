@@ -2,13 +2,13 @@
 Este repositorio contiene el código desarrollado durante un curso de web scraping. Incluye ejemplos prácticos utilizando diversas herramientas y librerías de scraping como `requests`, `BeautifulSoup`, `lxml` y `Scrapy`. Cada directorio y archivo representa ejercicios y proyectos que muestran distintas técnicas de extracción de datos de sitios web.
 
 ## Estructura del Proyecto
-**requests**: Ejemplos básicos utilizando la librería `requests` para realizar peticiones HTTP.
+- **requests**: Ejemplos básicos utilizando la librería `requests` para realizar peticiones HTTP.
 
-**BeautifulSoup**: Ejercicios con `BeautifulSoup` para la extracción de datos y el parsing de HTML.
+- **BeautifulSoup**: Ejercicios con `BeautifulSoup` para la extracción de datos y el parsing de HTML.
 
-**Scrapy**: Código que implementa spiders avanzados para la recolección de datos masivos.
+- **Scrapy**: Código que implementa spiders avanzados para la recolección de datos masivos.
 
-**lxml**: Ejemplos de parsing y manipulación de HTML con `lxml`.
+- **lxml**: Ejemplos de parsing y manipulación de HTML con `lxml`.
 
 ## Requisitos del Sistema
 - Python 3.x
@@ -30,24 +30,55 @@ pip install -r requirements.txt
 ```
 
 ## Uso
-Cada directorio contiene scripts independientes que puedes ejecutar para ver ejemplos específicos. A continuación, te explicamos cómo ejecutar los principales:
+Uso
+Cada script Python puede ejecutarse de manera individual. La mayoría de los spiders de Scrapy utilizan la clase CrawlerProcess para correr directamente como scripts de Python.
 
-### Ejecutar un Script con Requests y BeautifulSoup
-Dirígete al directorio del script y ejecuta:
+Por ejemplo:
+
+```python
+from scrapy.crawler import CrawlerProcess
+from my_spider import MySpider
+
+
+process = CrawlerProcess({
+    'FEED_FORMAT': 'json',
+    'FEED_URI': 'output.json'
+})
+
+process.crawl(MySpider)
+process.start()
+```
+
+Esto permite ejecutar el spider directamente con:
 
 ```bash
 python nombre_del_script.py
 ```
-### Ejecutar un Spider de Scrapy
-Para ejecutar el spider, navega al directorio donde esté ubicado y usa el siguiente comando:
 
-```bash
-scrapy runspider nombre_del_spider.py
+## Estructura del Proyecto
+La estructura del repositorio es la siguiente:
+
+```graphql
+web-scraping-course/
+│
+├── 1_beautifulsoup_example.py      # Ejemplo usando BeautifulSoup para extraer datos
+├── 2_requests_example.py           # Ejemplo de uso simple de requests
+├── 3_scrapy_example.py             # Spider básico con Scrapy
+├── 4_scrapy_StackOverflow.py       # Scrapeo de preguntas en StackOverflow
+├── data/                           # Directorio para almacenar los datos extraídos
+├── requirements.txt                # Lista de dependencias
+└── README.md                       # Documentación del proyecto
 ```
 Los datos recolectados se almacenarán en archivos CSV o JSON, según lo configurado en cada script.
 
-## Contribuciones
-Este repositorio no está abierto a contribuciones externas. Sin embargo, puedes utilizar el código como referencia personal o en tus propios proyectos.
+## Ejemplos
+Algunos de los ejemplos de scraping incluidos:
+
+1. BeautifulSoup y Requests: Extracción de datos de páginas web simples.
+
+2. Spider de Scrapy: Spider automatizado para extraer preguntas y descripciones de StackOverflow.
+
+3. Exportación de Datos: Almacenamiento de los datos extraídos en JSON, CSV u otros formatos.
 
 ## Licencia
 Este proyecto está bajo la Licencia MIT. Consulta el archivo LICENSE para más detalles.
