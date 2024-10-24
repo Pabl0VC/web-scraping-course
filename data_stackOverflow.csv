@@ -1,0 +1,231 @@
+descripcion,pregunta
+"
+                I have a remote machine where I am trying to connect it with c# code as follows
+using System.Net.NetworkInformation;
+using System.Runtime.InteropServices;
+using System.Threading.Tasks;
+
+namespace ...
+            ",How can I connect to a remote machine which is under VPN
+"
+                I'm working on a Kotlin Spring Boot project using Gradle, and I'm having trouble with OpenAPI Generator.
+App - app.yaml (a ref to shared.yaml is given to a schema component)
+Shared - shared.yaml
+When ...
+            ",OpenAPI generate creates duplicate models and classes when $ref is being used
+"
+                i need to extract root domain from subdomain on google spreadsheet
+Google Sheet Example
+I want result as following:
+ddd.example.com > example.com
+www.ddd.example.com -> example.com
+got root ...
+            ",Extract URL Root Domain From Subdomain (Google Spreadsheet)
+"
+                I have a table with constant resources, let's call it ""Events"", where the same number occurs every day.  I have another table that has a quantity with variable resources, let's call them &...
+            ",PowerBI DAX to filter a rate based on a constant to last date from another table
+"
+                I have 3 charts on a component in my angular app.
+I need to create text label plugins to show on the chart. Each chart needs to have specific plugin assigned to it. I have searched a lot and could not ...
+            ",Applying custom plugins to specific charts in Chart.js (not globally)
+"
+                I have a requirement as follows and need to know how this can be catered via customizing the action.
+When I click on “Generate Orders for Subassemblies” for a parent item such as given below with a ...
+            ",Copy Qty. to Produce Value for Child Production Orders in Production Order Maintenance Screen (AM201500)
+"
+                大华摄像头无法使用onvif协议？ 这个问题怎么解决
+给出python代码解决 或者问题方案来解决
+...
+            ",'Onvif_hik' object has no attribute 'ptz' [closed]
+"
+                there is no way i am able to proceed past the very first page of my site in node. i click login but i am stuck there. i tried so much with gpt and claude, too much changes in my file now, but no ...
+            ",login route failing in my react/remix project
+"
+                I have two different game servers running on my Windows 11 computer for friends and family, each with its own built-in web server. They are dependant of the game server process and run standalone ...
+            ",How to use Windows IIS to forward requests from website.com/page to localhost without using port forwarding?
+"
+                I have to do some update in my db and m using reactive way to do that but gettiing java.lang.long cannot be cast to java.lang.Integer
+using below dependencies with springboot 2.7.*
+<dependency>&...
+            ",updating an entity in DB giving class cast exception java.lang.Long can not be cast to java.lang.Integer in r2dbc maria db
+"
+                When custom HTML is added, the original width and height are scaled, and almost all page elements are misaligned
+This is a simple piece of html, but it speaks volumes.
+html_code = '''
+    <div ...
+            ","In gradio, when custom HTML is added, the original width and height are scaled, and almost all page elements are misaligned"
+"
+                Since yesterday, I encountered an issue where my facebook marketplace scraper ceased to fetch data, I'm currently using scrapy due to his features, am I doing any mistakes?
+from scrapy import Spider
+...
+            ","Marketplace scraper suddenly stopped, they updated the hidden json?"
+"
+                I have this prefix
+nuxt.config.js
+export default {
+  router: {
+    base: ''
+  },
+}
+
+Now I want to check when window width less than 768px, the router base will change to
+router: {
+  base: '/sp'
+},
+
+...
+            ",Set dynamic router base in Nuxt 2
+"
+                I want my grid items to start from the center instead of from the left. So I used justify-items-center:
+<div class=""bg-gray-100 grid grid-cols-4 justify-items-center gap-2 rounded p-3 md:grid-...
+            ",Why isn't justify-items-center not being applied here?
+"
+                I am working on a project, and i wrote an algorithm according to it.
+UAVs in this algorithm should cover the required edges and use the deadhead for just the shortest path to achieve servicing the ...
+            ",Can anyone help me to fix this problem according to my project? (Line coverage using uavs)
+"
+                I encountered this problem, whether in WSL_Ubuntu or on my Ubuntu server, the result is the same.
+(base) wsl_ubuntu@DESKTOP-9F3TF7P:~$ sudo docker pull python:3.9-slim
+[sudo] password for wsl_ubuntu:
+...
+            ","Error response from daemon: Get ""https://registry-1.docker.io/v2/"": net/http: request canceled while waiting for connection"
+"
+                I’m struggling to replicate the behavior of a TextField or UITextField similar to the one shown in the attached image. The image is from the Apple Health app’s weight input section.
+
+What I’m trying ...
+            ",How to Display Both Clear Button and Unit Label in UITextField Like in Apple Health App?
+"
+                How can I solve the ""arguments delimiters"" in AppSheets to match Google Sheets formulas?
+Google Sheet Formula:
+=IF(Ingresos_y_Egresos[Fecha]="""";"""";
+   IF(...
+            ","I have this issue between AppSheets and Google Sheets, when I insert a new Google Sheet Lines with AppSheets"
+"
+                I am trying to load data to a SQL table using SSIS package. Text file has date columns in the format yyyymmdd, the SQL table has datatype set to date (has to remain as date), but when I'm using a ...
+            ",SSIS How to convert date datatype with a size of 8 in source file with format yyyymmdd convert to yyyy-mm-dd
+"
+                I want to be able to use Log4j2 to log in JSON format. I am using JsonTemplateLayout and my own Event Template. My application uses MapMessage when logging so I can extract out values for my log ...
+            ",How do you log a message if your Event Template expects a map but doesn't receive a map in log4j2?
+"
+                I am a student and I have been doing the  project of Knee osteoarthritis severity grading and using  Cnn ( Can't use pretrained model). I am using the dataset of kaggle. I used 3 convolutional layer ...
+            ",Over fitting in CNN model
+"
+                Suppose i have a raw video 'encoded_raw.yuv' and 'original_raw.yuv' on YUV420p. I am getting significantly different results when im calculating VMAF using both methods
+Method 1
+$ ffmpeg -s ...
+            ",Significantly different scores when calculating VMAF for the whole video vs individual frames
+"
+                I'm working on a Vue 3 component where I dynamically render another component using <component :is=""..."">. The dynamically rendered component has a method (e.g., export()) that I need ...
+            ","Unable to Access Methods from Dynamically Rendered Vue 3 Component Using <component :is=""...""> and ref"
+"
+                I created a simple image lightbox using JavaScript. But I couldn't manage to do smooth transitioning while opening and closing it. I tried transition and/or animation properties but couldn't succeed. ...
+            ",How to toggle Lightbox smoothy?
+"
+                I'm working on a supervised neural network regression task where my target variable typically resembles the following pattern:
+Click to see the target variable image here
+I'm currently evaluating ...
+            ",Choice of Activation Function for Output Layer in Supervised Neural Network Regression with the shown target
+"
+                I am using x86 assembly MASM to compute first 41 fibonacci numbers. I initially had an array set to size 41, with 0's. This causes correct output for first 10ish values, with remaining indices being ...
+            ",Issues with array size outputting garbage values in assembly
+"
+                I simulated some data in R and tried to fit a GAM regression model. The model ran successfully and here are the results:
+library(mgcv)
+library(ggplot2)
+library(gridExtra)
+
+set.seed(123)
+
+n <- 200  
+...
+            ",Extracting coefficients of a regression model
+"
+                I need help with figuring out my two integers to defuse phase_5. Running gdb returns ""%d %d"" which is how I know it's scanning for two ints. I try to follow the compare and jump statements ...
+            ",Binary Bomb Phase_5 (Input two integers)
+"
+                I am new to typescript and I have written testcases for databaseHelper class to insert or update date. I am getting callback is not a function error. I am making one call to check if agency exists in ...
+            ",typeerror: callback is not a function - mocha
+"
+                Error Images.
+I have been recently working on my website however, ever since I started using JavaScript to try to inherit the navbar and the footer to every page, I would get a 404 error.
+When the ...
+            ",Github pages receiving 404 errors when fetching using JavaScript to load html
+"
+                I created a webpage with a sidebar that has links to other parts of my website. The sidebar is hidden (not really hidden,  just off the page using left: -16vw)  but has a button that sticks out for ...
+            ",I'm having trouble with this CSS animation for my sidebar
+"
+                In Windows 11 and Python 3.11.9, I ran cython 0.29.24 and 0.29.25 for a pyx file and got this fatal error: 'longintrepr.h': No such file or directory.
+I did not see this problem when like 3 years ago ...
+            ","cython 0.29.24 & 0.29.25 crashed in Windows 11 and python 3.11.9 with fatal error ""'longintrepr.h': No such file or directory."""
+"
+                React Complex Tree not rerendering on data change. I am trying to re render the tree when the filesystem data is changed by another component and passed to the tree in props. I have implemented this ...
+            ",React complex Tree not rerendering when data passed as props changes
+"
+                Trying to undergo the Neovim 0.10 upgrade (as it horrifically broke my colorscheme, so I've put it off), but I'm running into an issue when it comes to linking one group to another.
+In my old config, ...
+            ",Link one Treesitter highlight group to another
+"
+                I created a database called ""colors"" in my postgress server but I couldn't access it using python with the psycopg2 driver. See screenshot of my code & error, and the existing database ...
+            ","I get ""connection to server at ""127.0.0.1"", port 5432 failed: FATAL: database ""colors"" does not exist"" error even though the db exits in my Postgres"
+"
+                I've tried to install pomegranate using pip for a while now, but it seems like it can't. All it did was giving me this output.
+Collecting pomegranate
+  Downloading pomegranate-1.1.1-py3-none-any.whl....
+            ",Could not install pomegranate package for python 3.13
+"
+                I’m looking for insights on using the Spring Framework Enterprise. Recently, a vulnerability was discovered in Spring Framework, and the official recommendation is to upgrade to Spring Framework 6.x ...
+            ",Seeking Experience with Spring Framework Enterprise [closed]
+"
+                I have a response. I need to get the functionAmount when functionType = limit. I have the hard coded here. How to convert this into dynamic. How to filter data from nested objects?
+""users"": [...
+            ","Java, how to filter data from list of objects from response?"
+"
+                I installed lua5.4.2. The system variable path already contains the path. mingw-w64 uses x86_64-14.2.0-release-win32-seh-ucrt-rt_v12-rev0, and luarocks uses LuaRocks 3.11.1.
+The following is the error ...
+            ",Error: Build error: Failed compiling module mime\core.dll How to solve this problem?
+"
+                I recently encountered a situation where lambda was down in my region and my API gateway endpoints were returning 500s because the authorizer lambda wasn't working. I want to create a Route53 health ...
+            ",Route 53 health check for API gateway token-based lambda authorizer
+"
+                The heatmaply package contains an example of plotting a correlation heatmap in nod_type= scatter. This case uses an external function to get the alignment of the correlation matrix and manually passes ...
+            ",How to plot a clustered heatmap in scatter form using heatmaply
+"
+                I am new to programming and trying to learn with python. I have this code and expecting to sum the values of an array but getting error.
+I have this code that I managed to write based on the things i ...
+            ",Summing Python array values [closed]
+"
+                I have a rather simple animation I am trying to achieve where the selected item in a list gets a background applied. The goal is that the grey box behind the selected item sort of morphs from previous ...
+            ",Putting views within a List prevents matchedGeometryEffect from animating matched geometry between states
+"
+                we are setting up a fluentd aggregator on a VM to aggregate logs from OpenShift pods and sending the message to Splunk. We have the plugins installed.
+However upon running, we encounter the following ...
+            ",Fluentd throwing error Net::ReadTimout when flushing buffer
+"
+                I created a test virtual machine to apply Keycloak clustering.
+I installed Keycloak version 26 there and set it up as follows.
+conf/cache-ispn-tcpping.xml
+<infinispan
+        xmlns:xsi=""http://...
+            ",Keycloak clustering setup issue
+"
+                I've been looking for someone to help me with this issue for a while now. I have a React-native app built using expo and I'm using expo-camera to take pictures for my app. For some reason, I'm having ...
+            ",Build error on Expo EAS - Caused by expo-camera
+"
+                I wish to achieve something like this from a MYSQL SELECT query
+I wish to group the results from the select in 500 rows (per batch) and have a column called group (or anything) for the key to the ...
+            ",Mysql Query batched result grouped
+"
+                I have this grid of cards. The cards have an image and text underneath. When the browser width is reduced to 1000px, the cards change to a stacked format and stretch 100% of the screen width. The ...
+            ",Realigning div content inside responsive grid layout
+"
+                Is there a way of getting clean logs from a Flutter app in Android?
+i.e. instead of having
+
+[log] no color
+[log] texto en color
+I/flutter ( 5447): normal print
+D/EGL_emulation( 5447): app_time_stats: ...
+            ",Getting clean logs with Flutter in Android on VSCode
+"
+                I am importing data from a csv file into a database using an API. I've already run the script below and a little less than half of the data was imported. Something caused the API to stop and now I am ...
+            ",How to skip data already imported using Python
