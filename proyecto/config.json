@@ -1,0 +1,15 @@
+{
+    "PERFIL_CHROME": "./3_Webs_Dinamicas/perfil_bot",
+    "USER_AGENT": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/127.0.0.0 Safari/537.36",
+    "RUTA_GUARDADO": "proyecto/resultados_scraping",
+    "OBJETIVO": 100,
+    "MAX_INTENTOS": 10,
+    "NOMBRE_ARCHIVO": "Extraccion_OLX",
+    "FORMATO_GUARDADO": ["json", "py", "csv"],
+    "OLX": {
+        "URL": "https://www.olx.in/",
+        "CARGAR_MAS_BTN_XPATH": "//button[@data-aut-id='btnLoadMore']",
+        "ITEM_PRODUCTO_XPATH": "//li[@data-aut-id='itemBox3']",
+        "BOTON_DISCLAIMER_XPATH": "//button[@class='fc-button fc-cta-consent fc-primary-button']"
+    }
+}
